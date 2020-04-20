@@ -1,0 +1,85 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-pyhots-prod-182757-authRole",
+			"UnauthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-pyhots-prod-182757-deployment",
+			"UnauthRoleName": "amplify-pyhots-prod-182757-unauthRole",
+			"StackName": "amplify-pyhots-prod-182757",
+			"StackId": "arn:aws:cloudformation:us-east-1:615519431746:stack/amplify-pyhots-prod-182757/05ffef00-828d-11ea-abbe-0a73682547f5",
+			"AmplifyAppId": "d1ts3iqv4086si"
+		}
+	},
+	"function": {
+		"randomheroes": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"output": {
+				"Region": "us-east-1",
+				"Arn": "arn:aws:lambda:us-east-1:615519431746:function:randomheroes-prod",
+				"Name": "randomheroes-prod",
+				"LambdaExecutionRole": "pyhotsLambdaRole63e86f11-prod"
+			},
+			"lastPushTimeStamp": "2020-04-20T02:55:33.180Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-pyhots-prod-182757-deployment/amplify-cfn-templates/function/randomheroes-cloudformation-template.json",
+				"logicalId": "functionrandomheroes"
+			},
+			"lastBuildTimeStamp": "2020-04-20T02:54:29.625Z",
+			"lastPackageTimeStamp": "2020-04-20T02:54:30.324Z",
+			"distZipFilename": "randomheroes-746653382b4461647972-build.zip",
+			"lastPushDirHash": "PJ7gojLX9xSnfJLo3XqcyhDyicg="
+		}
+	},
+	"api": {
+		"randomheroes": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "randomheroes",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			],
+			"output": {
+				"ApiName": "randomheroes",
+				"RootUrl": "https://mxiojpl6qc.execute-api.us-east-1.amazonaws.com/prod",
+				"ApiId": "mxiojpl6qc"
+			},
+			"lastPushTimeStamp": "2020-04-20T02:55:33.178Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-pyhots-prod-182757-deployment/amplify-cfn-templates/api/randomheroes-cloudformation-template.json",
+				"logicalId": "apirandomheroes"
+			}
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-pyhots-prod-182757-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2020-04-20T02:55:33.178Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d1ir7lo99al7d7.cloudfront.net",
+				"S3BucketSecureURL": "https://pyhots-20200419224137-hostingbucket-prod.s3.amazonaws.com",
+				"CloudFrontOriginAccessIdentity": "E3KB5RVR8Q80AT",
+				"WebsiteURL": "http://pyhots-20200419224137-hostingbucket-prod.s3-website-us-east-1.amazonaws.com",
+				"CloudFrontDistributionID": "E3CBWW0KSY5EC7",
+				"Region": "us-east-1",
+				"HostingBucketName": "pyhots-20200419224137-hostingbucket-prod",
+				"CloudFrontDomainName": "d1ir7lo99al7d7.cloudfront.net"
+			},
+			"lastPushDirHash": "lQDEojbbDpcBr/TaIRz/vMT4bH8="
+		}
+	}
+}
