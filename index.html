@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hots random heroes picker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html, body { font-family: "Amazon Ember", "Helvetica", "sans-serif"; margin: 0;  background: linear-gradient(30deg, #09245D 55%, #1E5BDA);}
+            a { color: #FF9900; }
+            h1 { font-weight: 200; }
+            .app { width: 100%;  }
+            .app-header { color: white; text-align: center;  width: 100%; margin: 0 0 1em 0; padding: 3em 0 3em 0; box-shadow: 1px 2px 4px rgba(0, 0, 0, .3); }
+            .app-logo { width: 700px; margin: 0 auto;  height: 325px;}
+            .app-body { width: 200px; margin: 0 auto; text-align: center; }
+            .app-body button { background-color: #FF9900; font-size: 14px; color: white; text-transform: uppercase; padding: 1em; border: none; }
+            .app-body button:hover { opacity: 0.8; }
+            .column { float: left; width: 30%; padding: 30px;}
+            .row::after { content: ""; clear: both; display: table; }
+            .row {  font-size: 14px; color: white}
+        </style>
+    </head>
+    <body>
+        <div class="app">
+            <div class="app-header">
+                <div class="app-logo">
+                    <img src="https://www.seekpng.com/png/full/321-3216416_hots-logo-heroes-of-the-storm-2-game.png" alt="Hots"/>
+                </div>
+                <h1>Welcome to the heroes of the storm random heroes picker</h1>
+            </div>
+            <div class="app-body">
+                <button id="MutationEventButton">Get Random Heroes</button>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div id="MutationResult_heroe1"></div>
+                </div>
+                <div class="column">
+                    <div id="MutationResult_heroe2"></div>
+                </div>
+                <div class="column">
+                    <div id="MutationResult_heroe3"></div>
+                </div>
+            </div>
+        </div>
+        <script src="main.bundle.js"></script>
+        </div>
+    </body>
+</html>

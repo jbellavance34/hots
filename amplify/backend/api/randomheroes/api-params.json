@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/randomheroes",
+            "lambdaFunction": "randomheroes",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "randomheroes",
+    "apiName": "randomheroes",
+    "functionArns": [
+        {
+            "lambdaFunction": "randomheroes"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-pyhots-prod-182757-authRole",
+        "unAuthRoleName": "amplify-pyhots-prod-182757-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "randomheroes",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
