@@ -19,15 +19,9 @@ const MutationResult_heroe3 = document.getElementById('MutationResult_heroe3');
 
 MutationButton.addEventListener('click', (evt) => {
     // getting the first random hero
-  getData().then( (evt) => {
-    MutationResult_heroe1.innerHTML = `<p>${evt.Name} - ${evt.Type}</p><img src="${evt.Picture}" alt="heroe1" width="100" height="100">`
-  })
-    // getting the second random hero
-  getData().then( (evt) => {
-    MutationResult_heroe2.innerHTML = `<p>${evt.Name} - ${evt.Type}</p><img src="${evt.Picture}" alt="heroe2" width="100" height="100">`
-  })
-   // getting the third random hero
-  getData().then( (evt) => {
-    MutationResult_heroe3.innerHTML = `<p>${evt.Name} - ${evt.Type}</p><img src="${evt.Picture}"alt="heroe3" width="100" height="100">`
-  })
+    getData().then( (response) => {
+        MutationResult_heroe1.innerHTML = `<p> ${response['heroe_1'].Name} - ${response['heroe_1'].Type}</p><img src="${response['heroe_1'].Picture}" alt="heroe1" width="100" height="100">`
+        MutationResult_heroe2.innerHTML = `<p> ${response['heroe_2'].Name} - ${response['heroe_2'].Type}</p><img src="${response['heroe_2'].Picture}" alt="heroe2" width="100" height="100">`
+        MutationResult_heroe3.innerHTML = `<p> ${response['heroe_3'].Name} - ${response['heroe_3'].Type}</p><img src="${response['heroe_3'].Picture}" alt="heroe3" width="100" height="100">`
+      });
 });
