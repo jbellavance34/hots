@@ -13,6 +13,8 @@ NodeJS npm for the amplify cli
 ```bash
 npm install -g @aws-amplify/cli
 ```
+## Build 
+webpack --mode production
 
 ## Usage
 
