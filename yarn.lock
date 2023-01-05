@@ -2129,10 +2129,8 @@ events@^3.1.0, events@^3.2.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
 
 eventsource@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.npmjs.org/eventsource/-/eventsource-1.0.7.tgz"
-  dependencies:
-    original "^1.0.0"
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.2.tgz#bc75ae1c60209e7cb1541231980460343eaea7c2"
 
 execa@^1.0.0:
   version "1.0.0"
@@ -3204,12 +3202,6 @@ opn@^5.5.0:
   resolved "https://registry.npmjs.org/opn/-/opn-5.5.0.tgz"
   dependencies:
     is-wsl "^1.1.0"
-
-original@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/original/-/original-1.0.2.tgz"
-  dependencies:
-    url-parse "^1.4.3"
 
 os-locale@^3.0.0:
   version "3.1.0"
