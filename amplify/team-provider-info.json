@@ -1,15 +1,15 @@
 {
-    "prod": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-pyhots-prod-182757-authRole",
-            "UnauthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-pyhots-prod-182757-deployment",
-            "UnauthRoleName": "amplify-pyhots-prod-182757-unauthRole",
-            "StackName": "amplify-pyhots-prod-182757",
-            "StackId": "arn:aws:cloudformation:us-east-1:615519431746:stack/amplify-pyhots-prod-182757/05ffef00-828d-11ea-abbe-0a73682547f5",
-            "AmplifyAppId": "d1ts3iqv4086si"
-        }
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pyhots-prod-182757-authRole",
+      "UnauthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::615519431746:role/amplify-pyhots-prod-182757-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pyhots-prod-182757-deployment",
+      "UnauthRoleName": "amplify-pyhots-prod-182757-unauthRole",
+      "StackName": "amplify-pyhots-prod-182757",
+      "StackId": "arn:aws:cloudformation:us-east-1:615519431746:stack/amplify-pyhots-prod-182757/05ffef00-828d-11ea-abbe-0a73682547f5",
+      "AmplifyAppId": "d1ts3iqv4086si"
     }
+  }
 }
