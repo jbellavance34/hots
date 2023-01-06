@@ -38,8 +38,26 @@ app.get('/randomheroes', function(req, res) {
   let rawdata = fs.readFileSync('data.json');
   let parsed_data = JSON.parse(rawdata);
   //get random heroes
-  var item = parsed_data[Math.floor(Math.random() * parsed_data.length)];
-  res.json(item)
+
+  function getRandom(arr, n) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+}
+  var random_heroes = getRandom(parsed_data, 3);
+  res.json({
+    heroe_1: random_heroes[0],
+    heroe_2: random_heroes[1],
+    heroe_3: random_heroes[2]
+  })
 });
 
 app.get('/randomheroes/*', function(req, res) {
