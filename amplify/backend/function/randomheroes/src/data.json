@@ -1,1 +1,452 @@
-[{"Name": "Artanis", "Picture": "https://www.hotsnerd.com/images/artanis.png", "Type": "bruiser"}, {"Name": "Chen", "Picture": "https://www.hotsnerd.com/images/chen.png", "Type": "bruiser"}, {"Name": "DVa", "Picture": "https://www.hotsnerd.com/images/dva.png", "Type": "bruiser"}, {"Name": "Deathwing", "Picture": "https://www.hotsnerd.com/images/deathwing.png", "Type": "bruiser"}, {"Name": "Dehaka", "Picture": "https://www.hotsnerd.com/images/dehaka.png", "Type": "bruiser"}, {"Name": "Imperius", "Picture": "https://www.hotsnerd.com/images/imperius.png", "Type": "bruiser"}, {"Name": "Leoric", "Picture": "https://www.hotsnerd.com/images/leoric.png", "Type": "bruiser"}, {"Name": "Malthael", "Picture": "https://www.hotsnerd.com/images/malthael.png", "Type": "bruiser"}, {"Name": "Ragnaros", "Picture": "https://www.hotsnerd.com/images/ragnaros.png", "Type": "bruiser"}, {"Name": "Rexxar", "Picture": "https://www.hotsnerd.com/images/rexxar.png", "Type": "bruiser"}, {"Name": "Sonya", "Picture": "https://www.hotsnerd.com/images/sonya.png", "Type": "bruiser"}, {"Name": "Thrall", "Picture": "https://www.hotsnerd.com/images/thrall.png", "Type": "bruiser"}, {"Name": "Varian", "Picture": "https://www.hotsnerd.com/images/varian.png", "Type": "bruiser"}, {"Name": "Xul", "Picture": "https://www.hotsnerd.com/images/xul.png", "Type": "bruiser"}, {"Name": "Yrel", "Picture": "https://www.hotsnerd.com/images/yrel.png", "Type": "bruiser"}, {"Name": "Alexstrasza", "Picture": "https://www.hotsnerd.com/images/alexstrasza.png", "Type": "healer"}, {"Name": "Ana", "Picture": "https://www.hotsnerd.com/images/ana.png", "Type": "healer"}, {"Name": "Anduin", "Picture": "https://www.hotsnerd.com/images/anduin.png", "Type": "healer"}, {"Name": "Auriel", "Picture": "https://www.hotsnerd.com/images/auriel.png", "Type": "healer"}, {"Name": "Brightwing", "Picture": "https://www.hotsnerd.com/images/brightwing.png", "Type": "healer"}, {"Name": "Deckard", "Picture": "https://www.hotsnerd.com/images/deckard.png", "Type": "healer"}, {"Name": "Kharazim", "Picture": "https://www.hotsnerd.com/images/kharazim.png", "Type": "healer"}, {"Name": "LiLi", "Picture": "https://www.hotsnerd.com/images/lili.png", "Type": "healer"}, {"Name": "Morales", "Picture": "https://www.hotsnerd.com/images/morales.png", "Type": "healer"}, {"Name": "Malfurion", "Picture": "https://www.hotsnerd.com/images/malfurion.png", "Type": "healer"}, {"Name": "Rehgar", "Picture": "https://www.hotsnerd.com/images/rehgar.png", "Type": "healer"}, {"Name": "Stukov", "Picture": "https://www.hotsnerd.com/images/stukov.png", "Type": "healer"}, {"Name": "Tyrande", "Picture": "https://www.hotsnerd.com/images/tyrande.png", "Type": "healer"}, {"Name": "Uther", "Picture": "https://www.hotsnerd.com/images/uther.png", "Type": "healer"}, {"Name": "Whitemane", "Picture": "https://www.hotsnerd.com/images/whitemane.png", "Type": "healer"}, {"Name": "Lucio", "Picture": "https://www.hotsnerd.com/images/lucio.png", "Type": "healer"}, {"Name": "Alarak", "Picture": "https://www.hotsnerd.com/images/alarak.png", "Type": "melee_assasin"}, {"Name": "Gazlowe", "Picture": "https://www.hotsnerd.com/images/gazlowe.png", "Type": "melee_assasin"}, {"Name": "Illidan", "Picture": "https://www.hotsnerd.com/images/illidan.png", "Type": "melee_assasin"}, {"Name": "Kerrigan", "Picture": "https://www.hotsnerd.com/images/kerrigan.png", "Type": "melee_assasin"}, {"Name": "Maiev", "Picture": "https://www.hotsnerd.com/images/maiev.png", "Type": "melee_assasin"}, {"Name": "Murky", "Picture": "https://www.hotsnerd.com/images/murky.png", "Type": "melee_assasin"}, {"Name": "Qhira", "Picture": "https://www.hotsnerd.com/images/qhira.png", "Type": "melee_assasin"}, {"Name": "Samuro", "Picture": "https://www.hotsnerd.com/images/samuro.png", "Type": "melee_assasin"}, {"Name": "Butcher", "Picture": "https://www.hotsnerd.com/images/butcher.png", "Type": "melee_assasin"}, {"Name": "Valeera", "Picture": "https://www.hotsnerd.com/images/valeera.png", "Type": "melee_assasin"}, {"Name": "Zeratul", "Picture": "https://www.hotsnerd.com/images/zeratul.png", "Type": "melee_assasin"}, {"Name": "Azmodan", "Picture": "https://www.hotsnerd.com/images/azmodan.png", "Type": "range_assassin"}, {"Name": "Cassia", "Picture": "https://www.hotsnerd.com/images/cassia.png", "Type": "range_assassin"}, {"Name": "Chromie", "Picture": "https://www.hotsnerd.com/images/chromie.png", "Type": "range_assassin"}, {"Name": "Falstad", "Picture": "https://www.hotsnerd.com/images/falstad.png", "Type": "range_assassin"}, {"Name": "Fenix", "Picture": "https://www.hotsnerd.com/images/fenix.png", "Type": "range_assassin"}, {"Name": "Gall", "Picture": "https://www.hotsnerd.com/images/gall.png", "Type": "range_assassin"}, {"Name": "Genji", "Picture": "https://www.hotsnerd.com/images/genji.png", "Type": "range_assassin"}, {"Name": "Greymane", "Picture": "https://www.hotsnerd.com/images/greymane.png", "Type": "range_assassin"}, {"Name": "Guldan", "Picture": "https://www.hotsnerd.com/images/guldan.png", "Type": "range_assassin"}, {"Name": "Hanzo", "Picture": "https://www.hotsnerd.com/images/hanzo.png", "Type": "range_assassin"}, {"Name": "Jaina", "Picture": "https://www.hotsnerd.com/images/jaina.png", "Type": "range_assassin"}, {"Name": "Junkrat", "Picture": "https://www.hotsnerd.com/images/junkrat.png", "Type": "range_assassin"}, {"Name": "Kaelthas", "Picture": "https://www.hotsnerd.com/images/kaelthas.png", "Type": "range_assassin"}, {"Name": "KelThuzad", "Picture": "https://www.hotsnerd.com/images/kelthuzad.png", "Type": "range_assassin"}, {"Name": "LiMing", "Picture": "https://www.hotsnerd.com/images/liming.png", "Type": "range_assassin"}, {"Name": "Lunara", "Picture": "https://www.hotsnerd.com/images/lunara.png", "Type": "range_assassin"}, {"Name": "Mephisto", "Picture": "https://www.hotsnerd.com/images/mephisto.png", "Type": "range_assassin"}, {"Name": "Nazeebo", "Picture": "https://www.hotsnerd.com/images/nazeebo.png", "Type": "range_assassin"}, {"Name": "Nova", "Picture": "https://www.hotsnerd.com/images/nova.png", "Type": "range_assassin"}, {"Name": "Orphea", "Picture": "https://www.hotsnerd.com/images/orphea.png", "Type": "range_assassin"}, {"Name": "Probius", "Picture": "https://www.hotsnerd.com/images/probius.png", "Type": "range_assassin"}, {"Name": "Raynor", "Picture": "https://www.hotsnerd.com/images/raynor.png", "Type": "range_assassin"}, {"Name": "Hammer", "Picture": "https://www.hotsnerd.com/images/hammer.png", "Type": "range_assassin"}, {"Name": "Sylvanas", "Picture": "https://www.hotsnerd.com/images/sylvanas.png", "Type": "range_assassin"}, {"Name": "Tracer", "Picture": "https://www.hotsnerd.com/images/tracer.png", "Type": "range_assassin"}, {"Name": "Tychus", "Picture": "https://www.hotsnerd.com/images/tychus.png", "Type": "range_assassin"}, {"Name": "Valla", "Picture": "https://www.hotsnerd.com/images/valla.png", "Type": "range_assassin"}, {"Name": "Zagara", "Picture": "https://www.hotsnerd.com/images/zagara.png", "Type": "range_assassin"}, {"Name": "Zuljin", "Picture": "https://www.hotsnerd.com/images/zuljin.png", "Type": "range_assassin"}, {"Name": "Abathur", "Picture": "https://www.hotsnerd.com/images/abathur.png", "Type": "support"}, {"Name": "Medivh", "Picture": "https://www.hotsnerd.com/images/medivh.png", "Type": "support"}, {"Name": "Tassadar", "Picture": "https://www.hotsnerd.com/images/tassadar.png", "Type": "support"}, {"Name": "Vikings", "Picture": "https://www.hotsnerd.com/images/vikings.png", "Type": "support"}, {"Name": "Zarya", "Picture": "https://www.hotsnerd.com/images/zarya.png", "Type": "support"}, {"Name": "Anubarak", "Picture": "https://www.hotsnerd.com/images/anubarak.png", "Type": "tank"}, {"Name": "Arthas", "Picture": "https://www.hotsnerd.com/images/arthas.png", "Type": "tank"}, {"Name": "Blaze", "Picture": "https://www.hotsnerd.com/images/blaze.png", "Type": "tank"}, {"Name": "Cho", "Picture": "https://www.hotsnerd.com/images/cho.png", "Type": "tank"}, {"Name": "Diablo", "Picture": "https://www.hotsnerd.com/images/diablo.png", "Type": "tank"}, {"Name": "etc", "Picture": "https://www.hotsnerd.com/images/etc.png", "Type": "tank"}, {"Name": "Garrosh", "Picture": "https://www.hotsnerd.com/images/garrosh.png", "Type": "tank"}, {"Name": "Johanna", "Picture": "https://www.hotsnerd.com/images/johanna.png", "Type": "tank"}, {"Name": "MalGanis", "Picture": "https://www.hotsnerd.com/images/malganis.png", "Type": "tank"}, {"Name": "Muradin", "Picture": "https://www.hotsnerd.com/images/muradin.png", "Type": "tank"}, {"Name": "Stitches", "Picture": "https://www.hotsnerd.com/images/stitches.png", "Type": "tank"}, {"Name": "Tyrael", "Picture": "https://www.hotsnerd.com/images/tyrael.png", "Type": "tank"}]
+[
+    {
+        "Name": "Artanis",
+        "Picture": "https://www.hotsnerd.com/images/artanis.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Chen",
+        "Picture": "https://www.hotsnerd.com/images/chen.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "DVa",
+        "Picture": "https://www.hotsnerd.com/images/dva.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Deathwing",
+        "Picture": "https://www.hotsnerd.com/images/deathwing.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Hogger",
+        "Picture": "https://www.hotsnerd.com/images/hogger.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Dehaka",
+        "Picture": "https://www.hotsnerd.com/images/dehaka.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Imperius",
+        "Picture": "https://www.hotsnerd.com/images/imperius.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Leoric",
+        "Picture": "https://www.hotsnerd.com/images/leoric.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Malthael",
+        "Picture": "https://www.hotsnerd.com/images/malthael.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Ragnaros",
+        "Picture": "https://www.hotsnerd.com/images/ragnaros.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Rexxar",
+        "Picture": "https://www.hotsnerd.com/images/rexxar.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Sonya",
+        "Picture": "https://www.hotsnerd.com/images/sonya.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Thrall",
+        "Picture": "https://www.hotsnerd.com/images/thrall.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Varian",
+        "Picture": "https://www.hotsnerd.com/images/varian.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Xul",
+        "Picture": "https://www.hotsnerd.com/images/xul.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Yrel",
+        "Picture": "https://www.hotsnerd.com/images/yrel.png",
+        "Type": "bruiser"
+    },
+    {
+        "Name": "Alexstrasza",
+        "Picture": "https://www.hotsnerd.com/images/alexstrasza.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Ana",
+        "Picture": "https://www.hotsnerd.com/images/ana.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Anduin",
+        "Picture": "https://www.hotsnerd.com/images/anduin.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Auriel",
+        "Picture": "https://www.hotsnerd.com/images/auriel.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Brightwing",
+        "Picture": "https://www.hotsnerd.com/images/brightwing.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Deckard",
+        "Picture": "https://www.hotsnerd.com/images/deckard.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Kharazim",
+        "Picture": "https://www.hotsnerd.com/images/kharazim.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "LiLi",
+        "Picture": "https://www.hotsnerd.com/images/lili.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Morales",
+        "Picture": "https://www.hotsnerd.com/images/morales.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Malfurion",
+        "Picture": "https://www.hotsnerd.com/images/malfurion.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Rehgar",
+        "Picture": "https://www.hotsnerd.com/images/rehgar.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Stukov",
+        "Picture": "https://www.hotsnerd.com/images/stukov.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Tyrande",
+        "Picture": "https://www.hotsnerd.com/images/tyrande.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Uther",
+        "Picture": "https://www.hotsnerd.com/images/uther.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Whitemane",
+        "Picture": "https://www.hotsnerd.com/images/whitemane.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Lucio",
+        "Picture": "https://www.hotsnerd.com/images/lucio.png",
+        "Type": "healer"
+    },
+    {
+        "Name": "Alarak",
+        "Picture": "https://www.hotsnerd.com/images/alarak.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Gazlowe",
+        "Picture": "https://www.hotsnerd.com/images/gazlowe.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Illidan",
+        "Picture": "https://www.hotsnerd.com/images/illidan.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Kerrigan",
+        "Picture": "https://www.hotsnerd.com/images/kerrigan.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Maiev",
+        "Picture": "https://www.hotsnerd.com/images/maiev.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Murky",
+        "Picture": "https://www.hotsnerd.com/images/murky.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Qhira",
+        "Picture": "https://www.hotsnerd.com/images/qhira.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Samuro",
+        "Picture": "https://www.hotsnerd.com/images/samuro.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Butcher",
+        "Picture": "https://www.hotsnerd.com/images/butcher.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Valeera",
+        "Picture": "https://www.hotsnerd.com/images/valeera.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Zeratul",
+        "Picture": "https://www.hotsnerd.com/images/zeratul.png",
+        "Type": "melee_assasin"
+    },
+    {
+        "Name": "Azmodan",
+        "Picture": "https://www.hotsnerd.com/images/azmodan.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Cassia",
+        "Picture": "https://www.hotsnerd.com/images/cassia.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Chromie",
+        "Picture": "https://www.hotsnerd.com/images/chromie.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Falstad",
+        "Picture": "https://www.hotsnerd.com/images/falstad.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Fenix",
+        "Picture": "https://www.hotsnerd.com/images/fenix.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Gall",
+        "Picture": "https://www.hotsnerd.com/images/gall.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Genji",
+        "Picture": "https://www.hotsnerd.com/images/genji.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Greymane",
+        "Picture": "https://www.hotsnerd.com/images/greymane.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Guldan",
+        "Picture": "https://www.hotsnerd.com/images/guldan.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Hanzo",
+        "Picture": "https://www.hotsnerd.com/images/hanzo.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Jaina",
+        "Picture": "https://www.hotsnerd.com/images/jaina.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Junkrat",
+        "Picture": "https://www.hotsnerd.com/images/junkrat.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Kaelthas",
+        "Picture": "https://www.hotsnerd.com/images/kaelthas.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "KelThuzad",
+        "Picture": "https://www.hotsnerd.com/images/kelthuzad.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "LiMing",
+        "Picture": "https://www.hotsnerd.com/images/liming.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Lunara",
+        "Picture": "https://www.hotsnerd.com/images/lunara.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Mephisto",
+        "Picture": "https://www.hotsnerd.com/images/mephisto.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Nazeebo",
+        "Picture": "https://www.hotsnerd.com/images/nazeebo.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Nova",
+        "Picture": "https://www.hotsnerd.com/images/nova.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Orphea",
+        "Picture": "https://www.hotsnerd.com/images/orphea.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Probius",
+        "Picture": "https://www.hotsnerd.com/images/probius.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Raynor",
+        "Picture": "https://www.hotsnerd.com/images/raynor.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Hammer",
+        "Picture": "https://www.hotsnerd.com/images/hammer.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Sylvanas",
+        "Picture": "https://www.hotsnerd.com/images/sylvanas.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Tracer",
+        "Picture": "https://www.hotsnerd.com/images/tracer.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Tychus",
+        "Picture": "https://www.hotsnerd.com/images/tychus.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Valla",
+        "Picture": "https://www.hotsnerd.com/images/valla.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Zagara",
+        "Picture": "https://www.hotsnerd.com/images/zagara.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Zuljin",
+        "Picture": "https://www.hotsnerd.com/images/zuljin.png",
+        "Type": "range_assassin"
+    },
+    {
+        "Name": "Abathur",
+        "Picture": "https://www.hotsnerd.com/images/abathur.png",
+        "Type": "support"
+    },
+    {
+        "Name": "Medivh",
+        "Picture": "https://www.hotsnerd.com/images/medivh.png",
+        "Type": "support"
+    },
+    {
+        "Name": "Tassadar",
+        "Picture": "https://www.hotsnerd.com/images/tassadar.png",
+        "Type": "support"
+    },
+    {
+        "Name": "Vikings",
+        "Picture": "https://www.hotsnerd.com/images/vikings.png",
+        "Type": "support"
+    },
+    {
+        "Name": "Zarya",
+        "Picture": "https://www.hotsnerd.com/images/zarya.png",
+        "Type": "support"
+    },
+    {
+        "Name": "Anubarak",
+        "Picture": "https://www.hotsnerd.com/images/anubarak.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Arthas",
+        "Picture": "https://www.hotsnerd.com/images/arthas.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Blaze",
+        "Picture": "https://www.hotsnerd.com/images/blaze.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Cho",
+        "Picture": "https://www.hotsnerd.com/images/cho.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Diablo",
+        "Picture": "https://www.hotsnerd.com/images/diablo.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "etc",
+        "Picture": "https://www.hotsnerd.com/images/etc.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Garrosh",
+        "Picture": "https://www.hotsnerd.com/images/garrosh.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Johanna",
+        "Picture": "https://www.hotsnerd.com/images/johanna.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "MalGanis",
+        "Picture": "https://www.hotsnerd.com/images/malganis.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Muradin",
+        "Picture": "https://www.hotsnerd.com/images/muradin.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Stitches",
+        "Picture": "https://www.hotsnerd.com/images/stitches.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Tyrael",
+        "Picture": "https://www.hotsnerd.com/images/tyrael.png",
+        "Type": "tank"
+    },
+    {
+        "Name": "Mei",
+        "Picture": "https://www.hotsnerd.com/images/mei.png",
+        "Type": "tank"
+    }
+]
